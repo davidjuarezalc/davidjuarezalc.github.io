@@ -1,12 +1,16 @@
 import About from "./About/About";
-import "./App.css";
+import "./App.scss";
 import Career from "./Career/Career";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <About></About>
-      <Career></Career>
+      <div className="content">
+        <About />
+        <Career />
+      </div>
+      <Footer />
     </div>
   );
 }
