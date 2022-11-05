@@ -1,0 +1,11 @@
+{
+	"web": {
+		"career": {
+			"title": "Mi carrera profesional"
+		},
+		"contact": "Contacta conmigo",
+		"desc": "Soy David Juarez, tengo 25 años, y soy un apasionado de la informática y el deporte",
+		"footer": "Desarrollado por David Juárez. Basado en React.js",
+		"title": "Quién soy"
+	}
+}
