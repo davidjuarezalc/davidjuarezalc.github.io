@@ -1,7 +1,11 @@
 {
 	"web": {
 		"career": {
-			"title": "My professional career"
+			"aplicaziones": "My first laboral experience as a trainee while I was studying.",
+			"everis": "",
+			"title": "My professional career",
+			"university": "I studied Computer Science, which I had very clear on my mind since I was young. I had a GPA of 7 out of 10.",
+			"vodafone": ""
 		},
 		"contact": "Contact me",
 		"desc": "My name is David Juarez, I'm 25 and I'm a passionate lover of sports and computing",

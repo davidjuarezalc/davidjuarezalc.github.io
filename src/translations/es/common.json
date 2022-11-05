@@ -1,7 +1,11 @@
 {
 	"web": {
 		"career": {
-			"title": "Mi carrera profesional"
+			"aplicaziones": "Mi primera experiencia laboral. Aquí realicé mis prácticas en empresa.",
+			"everis": "",
+			"title": "Mi carrera profesional",
+			"university": "Estudié Ingeniería Informática, una decisión que tenía clara desde pequeño. Conseguí una media de 7.",
+			"vodafone": ""
 		},
 		"contact": "Contacta conmigo",
 		"desc": "Soy David Juarez, tengo 25 años, y soy un apasionado de la informática y el deporte",

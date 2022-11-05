@@ -5,10 +5,22 @@ function Career() {
     <section>
       <h3>{t("web.career.title")}</h3>
       <ul>
-        <li>Universidad Carlos III</li>
-        <li>Aplicaziones</li>
-        <li>everis/NTT Data</li>
-        <li>Vodafone</li>
+        <li>
+          <h4>Universidad Carlos III (9/2015 - 7/2019)</h4>
+          <p>{t("common:web.career.university")}</p>
+        </li>
+        <li>
+          <h4>Aplicaziones (9/2018 - 2/2019)</h4>
+          <p>{t("common:web.career.aplicaziones")}</p>
+        </li>
+        <li>
+          <h4>everis/NTT Data (9/2019 - 6/2022)</h4>
+          <p>{t("common:web.career.everis")}</p>
+        </li>
+        <li>
+          <h4>Vodafone (6/2022 - *)</h4>
+          <p>{t("common:web.career.vodafone")}</p>
+        </li>
       </ul>
     </section>
   );
