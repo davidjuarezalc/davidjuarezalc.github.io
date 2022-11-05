@@ -1,0 +1,11 @@
+{
+	"web": {
+		"career": {
+			"title": "My professional career"
+		},
+		"contact": "Contact me",
+		"desc": "My name is David Juarez, I'm 25 and I'm a passionate lover of sports and computing",
+		"footer": "Developed by David Juárez. Based on React.js",
+		"title": "Who is me?"
+	}
+}

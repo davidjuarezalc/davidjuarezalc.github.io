@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 function Career() {
+  const { t } = useTranslation("common");
   return (
     <section>
-      <h3>Mi carrera profesional</h3>
+      <h3>{t("web.career.title")}</h3>
       <ul>
         <li>Universidad Carlos III</li>
         <li>Aplicaziones</li>

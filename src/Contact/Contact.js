@@ -1,5 +1,7 @@
 import "./Contact.scss";
+import { useTranslation } from "react-i18next";
 function Contact() {
+  const { t } = useTranslation("common");
   var socialMedia = [
     {
       image: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
@@ -14,7 +16,7 @@ function Contact() {
   ];
   return (
     <section>
-      <h2>Contacta conmigo</h2>
+      <h2>{t("web.contact")}</h2>
       <div className="contact-list">
         {socialMedia.map((media) => {
           return (
