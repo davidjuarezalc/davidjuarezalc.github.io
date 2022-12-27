@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 function Career() {
   const { t } = useTranslation("common");
+  const everis = t("common:web.career.everis", { returnObjects: true });
   return (
     <section>
       <h3>{t("web.career.title")}</h3>
@@ -15,7 +16,14 @@ function Career() {
         </li>
         <li>
           <h4>everis/NTT Data (9/2019 - 6/2022)</h4>
-          <p>{t("common:web.career.everis")}</p>
+          {everis.map((elem, i) => {
+            return (
+              <div key={i}>
+                <h5>{elem.title}</h5>
+                <p>{elem.text}</p>
+              </div>
+            );
+          })}
         </li>
         <li>
           <h4>Vodafone (6/2022 - *)</h4>

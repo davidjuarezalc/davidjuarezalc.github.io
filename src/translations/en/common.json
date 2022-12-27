@@ -1,15 +1,24 @@
 {
-	"web": {
-		"career": {
-			"aplicaziones": "My first laboral experience as a trainee while I was studying.",
-			"everis": "",
-			"title": "My professional career",
-			"university": "I studied Computer Science, which I had very clear on my mind since I was young. I had a GPA of 7 out of 10.",
-			"vodafone": ""
-		},
-		"contact": "Contact me",
-		"desc": "My name is David Juarez, I'm 25 and I'm a passionate lover of sports and computing",
-		"footer": "Developed by David Juárez. Based on React.js",
-		"title": "Who is me?"
-	}
+  "web": {
+    "career": {
+      "aplicaziones": "My first laboral experience as a trainee while I was studying. I participated in the development of an Android app and a Node.js server.",
+      "everis": [
+        {
+          "title": "Solutions Assistant (2019-2021)",
+          "text": "I started as a full stack developer, with an Angular JS frontend and a Java 7 server. In 6 months, I switched teams and I focused on frontend development, at first with an Angular 6 application which was upgraded to Angular 12 a bit later."
+        },
+        {
+          "title": "Solutions Analyst (2021-2022)",
+          "text": "After a year and a half being junior, I was promoted to analyst, and further my job as developer, I started to participate on technical and functional designs of the project. During this time, I was the top front end developer in Vodafone NTT Data Web Chapter; and I was a code reviewer of the repository."
+        }
+      ],
+      "title": "My professional career",
+      "university": "I studied Computer Science, which I had very clear on my mind since I was young. I had a GPA of 7 out of 10.",
+      "vodafone": "After 2 years being in the same team, I was hired by Vodafone directly and promoted to Technical Lead of this same team, position I currently hold."
+    },
+    "contact": "Contact me",
+    "desc": "My name is David Juarez, I'm {0} and I'm a passionate lover of sports and computing",
+    "footer": "Developed by David Juárez. Based on React.js",
+    "title": "Who is me?"
+  }
 }
