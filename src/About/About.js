@@ -2,11 +2,13 @@ import { useTranslation } from "react-i18next";
 import "./About.scss";
 function About() {
   const { t, i18n } = useTranslation("common");
+  const age =
+    new Date(new Date() - new Date("05/05/1997")).getFullYear() - 1970;
   return (
     <section className="About">
       <div>
         <h1>{t("web.title")}</h1>
-        <p>{t("web.desc")}</p>
+        <p>{t("web.desc").replace("{0}", age)}</p>
       </div>
       <div>
         <img
