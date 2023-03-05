@@ -5,7 +5,7 @@
       "everis": [
         {
           "title": "Solutions Assistant (2019-2021)",
-          "text": "Empecé como desarrollador full stack, con un frontal Angular JS y un servidor Java 7. A los 6 meses, me cambié de equipo y me especialicé en front end, al principio con una aplciación Angular 6 que poco después se actualizaría a Angular 12."
+          "text": "Empecé como desarrollador full stack, con un frontal Angular JS y un servidor Java 7. A los 6 meses, me cambié de equipo y me especialicé en front end, al principio con una aplicación Angular 6 que poco después se actualizaría a Angular 12."
         },
         {
           "title": "Solutions Analyst (2021-2022)",
@@ -14,10 +14,22 @@
       ],
       "title": "Mi carrera profesional",
       "university": "Estudié Ingeniería Informática, una decisión que tenía clara desde pequeño. Conseguí una media de 7.",
-      "vodafone": "Después de 2 años en el mismo equipo como desarrollador, me internalizaron como Technical Lead del mismo equipo, puesto que ocupo actualmente."
+      "vodafone": "Después de 2 años en el mismo equipo como desarrollador, me internalizaron como Technical Lead del mismo equipo, puesto que ocupo actualmente. El equipo cuenta con 4 desarrolladores backend, 2 desarrolladores web, 2 desarrolladores Android y 2 desarrolladores iOS."
+    },
+    "technologies": {
+      "title": "Tecnologías que uso",
+      "list": [
+        "Bases de datos SQL",
+        "Bases de datos Couchbase",
+        "Java / SpringBoot",
+        "Jira/Confluence",
+        "Repositorios Github",
+        "Jenkins CI/CD"
+      ]
     },
     "contact": "Contacta conmigo",
-    "desc": "Soy David Juarez, tengo {0} años, y soy un apasionado de la informática y el deporte",
+    "repo": "Pulsa aquí para ver el código fuente de esta página",
+    "desc": "Soy David Juárez, tengo {0} años, y soy un apasionado de la informática y el deporte",
     "footer": "Desarrollado por David Juárez. Basado en React.js",
     "title": "Quién soy"
   }

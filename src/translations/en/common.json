@@ -14,10 +14,22 @@
       ],
       "title": "My professional career",
       "university": "I studied Computer Science, which I had very clear on my mind since I was young. I had a GPA of 7 out of 10.",
-      "vodafone": "After 2 years being in the same team, I was hired by Vodafone directly and promoted to Technical Lead of this same team, position I currently hold."
+      "vodafone": "After 2 years being in the same team, I was hired by Vodafone directly and promoted to Technical Lead of this same team, position I currently hold. The team consists of 4 backend developers, 2 web developers, 2 Android developers and 2 iOS developers."
+    },
+    "technologies": {
+      "title": "Tech I use every day",
+      "list": [
+        "SQL Databases",
+        "Couchbase Databases",
+        "Java / SpringBoot",
+        "Jira/Confluence",
+        "Github repos",
+        "Jenkins CI/CD"
+      ]
     },
     "contact": "Contact me",
-    "desc": "My name is David Juarez, I'm {0} and I'm a passionate lover of sports and computing",
+    "repo": "Click here to see the source code of this page",
+    "desc": "My name is David Juárez, I'm {0} and I'm a passionate lover of sports and computing",
     "footer": "Developed by David Juárez. Based on React.js",
     "title": "Who is me?"
   }
