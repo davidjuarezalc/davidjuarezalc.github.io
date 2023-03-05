@@ -1,0 +1,18 @@
+.tech-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  p {
+    flex: 30%;
+    padding: 0 16px;
+  }
+}
+.tech-title {
+  display: flex;
+  align-items: center;
+}
+.arrow-icon {
+  font-size: 25px;
+  padding-left: 16px;
+  cursor: pointer;
+}

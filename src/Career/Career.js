@@ -1,7 +1,12 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { BsArrowDownSquareFill, BsArrowUpSquareFill } from "react-icons/bs";
+import "./Career.scss";
 function Career() {
   const { t } = useTranslation("common");
   const everis = t("common:web.career.everis", { returnObjects: true });
+  const techList = t("common:web.technologies.list", { returnObjects: true });
+  let [showTech, setShowTech] = useState(false);
   return (
     <section>
       <h3>{t("web.career.title")}</h3>
@@ -28,6 +33,27 @@ function Career() {
         <li>
           <h4>Vodafone (6/2022 - *)</h4>
           <p>{t("common:web.career.vodafone")}</p>
+          <h5 className="tech-title">
+            {t("common:web.technologies.title")}
+            {showTech ? (
+              <BsArrowUpSquareFill
+                onClick={() => setShowTech(!showTech)}
+                className="arrow-icon"
+              />
+            ) : (
+              <BsArrowDownSquareFill
+                onClick={() => setShowTech(!showTech)}
+                className="arrow-icon"
+              />
+            )}
+          </h5>
+          {showTech && (
+            <div className="tech-table">
+              {techList.map((elem, i) => (
+                <p key={i}>{elem}</p>
+              ))}
+            </div>
+          )}
         </li>
       </ul>
     </section>

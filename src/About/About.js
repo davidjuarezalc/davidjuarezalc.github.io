@@ -9,6 +9,13 @@ function About() {
       <div>
         <h1>{t("web.title")}</h1>
         <p>{t("web.desc").replace("{0}", age)}</p>
+        <a
+          href="https://github.com/davidjuarezalc/davidjuarezalc.github.io"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t("web.repo")}
+        </a>
       </div>
       <div>
         <img
